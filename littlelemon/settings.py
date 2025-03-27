@@ -40,6 +40,9 @@ INSTALLED_APPS = [
 
     #local
     'restaurant.apps.RestaurantConfig',
+
+    #third parties
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
